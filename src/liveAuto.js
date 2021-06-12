@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         acfun直播自动点赞抢红包
 // @namespace    http://tampermonkey.net/
-// @version      0.1.0
+// @version      0.1.1
 // @description  进入直播间后自动点赞、抢红包。检测到直播结束自动暂停脚本减小资源消耗（每日红包有上限所以我觉得用脚本抢应该ok）
 // @author       泥壕
 // @match        https://live.acfun.cn/live/*
