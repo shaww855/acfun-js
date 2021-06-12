@@ -49,6 +49,7 @@
       do() {
         acfunHelper.redpack.timeId = setInterval(() => {
           acfunHelper.log('检查红包')
+          // 观众发的
           if (document.querySelector('.redpack-entry').style.display === 'block') {
             acfunHelper.log('探测到红包')
             clearInterval(acfunHelper.redpack.timeId)
@@ -64,6 +65,28 @@
                 await setTimeout(() => {
                   acfunHelper.log(document.querySelector('.gift-redpack-account').innerHTML)
                   document.querySelector('.gift-redpack-close').click()
+                  acfunHelper.log('本轮红包结束')
+                  acfunHelper.redpack.do()
+                }, 1000)
+              }
+            }, 300)
+          }
+          // 主播发的
+          if (document.querySelector('.authpack-entry').style.display === 'block') {
+            acfunHelper.log('探测到红包')
+            clearInterval(acfunHelper.redpack.timeId)
+            acfunHelper.redpack.total++
+            document.querySelector('.authpack-entry').click()
+            let timeId = setInterval(async () => {
+              acfunHelper.log('准备抢红包')
+              if (document.querySelector('.gift-authpack-btn.grab') !== null && document.querySelector('.gift-authpack-btn.grab').innerText === '抢') {
+                acfunHelper.log('执行抢红包')
+                acfunHelper.redpack.count++
+                clearInterval(timeId)
+                document.querySelector('.gift-authpack-btn.grab').click()
+                await setTimeout(() => {
+                  acfunHelper.log(document.querySelector('.gift-authpack-account').innerHTML)
+                  document.querySelector('.gift-authpack-close').click()
                   acfunHelper.log('本轮红包结束')
                   acfunHelper.redpack.do()
                 }, 1000)
