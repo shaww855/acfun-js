@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         acfun超大弹幕缩小
-// @version      0.2.0
+// @version      0.2.1
 // @description  超大弹幕很影响观看体验，干掉它吧！
 // @author       泥壕
 // @match        https://www.acfun.cn/v/*
@@ -10,9 +10,12 @@
 (function () {
   'use strict';
   const log = arg => console.log('%c 超大弹幕缩小 ', 'background:#03a9f4;color:white', arg);
-  let wentDel = Boolean(localStorage.getItem('超大弹幕处理方式'))
+  let wentDel = Boolean(localStorage.getItem('超大弹幕处理'))
+
   log(`欢迎使用~  当前配置：超大弹幕 ${wentDel ? '删除' : '缩小'}`)
-  log(`运行 bigDanmakuDel(true) 删除超大弹幕，运行 bigDanmakuDel(false) 缩小超大弹幕。`)
+  log(`删除超大弹幕，请运行 localStorage.setItem('超大弹幕处理', 1) 后刷新`)
+  log(`缩小超大弹幕，请运行 localStorage.removeItem('超大弹幕处理') 后刷新`)
+  
   let timeId = null
   let count = 0
   const reduceDanmaku = () => {
@@ -43,14 +46,4 @@
     window.clearInterval(timeId)
     log(`=中止=  共处理${count}条超大弹幕`);
   })
-
-  window.bigDanmakuDel = action => {
-    wentDel = action
-    log(`配置修改：超大弹幕 ${wentDel ? '删除' : '缩小'}`)
-    if (action) {
-      localStorage.setItem('超大弹幕处理方式', 1)
-    } else {
-      localStorage.removeItem('超大弹幕处理方式')
-    }
-  }
 })();
