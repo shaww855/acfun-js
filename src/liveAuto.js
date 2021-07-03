@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         acfun直播自动点赞抢红包
 // @namespace    http://tampermonkey.net/
-// @version      0.1.1
+// @version      0.1.2
 // @description  进入直播间后自动点赞、抢红包。检测到直播结束自动暂停脚本减小资源消耗（每日红包有上限所以我觉得用脚本抢应该ok）
 // @author       泥壕
 // @match        https://live.acfun.cn/live/*
@@ -79,7 +79,7 @@
             document.querySelector('.authpack-entry').click()
             let timeId = setInterval(async () => {
               acfunHelper.log('准备抢红包')
-              if (document.querySelector('.gift-authpack-btn.grab') !== null && document.querySelector('.gift-authpack-btn.grab').innerText === '抢') {
+              if (document.querySelector('.gift-authpack-btn.grab') !== null) {
                 acfunHelper.log('执行抢红包')
                 acfunHelper.redpack.count++
                 clearInterval(timeId)
