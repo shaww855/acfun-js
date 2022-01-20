@@ -6,7 +6,7 @@
 // uid
 const userId = ''
 // 不知道
-const did = 'web_XXXXXXXXXXXX'
+const did = 'web_430635695C8D24CA'
 // 好像是token
 const acfunMidgroundApi_st = ''
 // 直播ID
@@ -23,7 +23,7 @@ const comboKey = ''
 const url = `https://api.kuaishouzt.com/rest/zt/live/web/gift/send?subBiz=mainApp&kpn=ACFUN_APP&kpf=PC_WEB&userId=${userId}&did=did&acfun.midground.api_st=${acfunMidgroundApi_st}`
 
 /*
- *  直接在直播间执行本脚本会跨域，需要打开 https://api.kuaishouzt.com/rest/zt/live/web/gift/send 执行
+ * 直接在直播间执行本脚本会跨域，需要打开 https://api.kuaishouzt.com/rest/zt/live/web/gift/send 执行
  */
 
 var formData = new FormData()
