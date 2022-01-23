@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         acfun自动投蕉
 // @namespace    http://tampermonkey.net/
-// @version      0.1.2
+// @version      0.1.3
 // @description  已关注up主的视频、文章自动投5蕉，无任何依赖，原生操作
 // @author       泥壕
 // @match        https://www.acfun.cn/v/*
@@ -29,9 +29,19 @@
   ready(() => {
     if (location.href.includes('/v/')) {
       // 视频页面
-      if (!document.querySelector('.follow-up').className.includes('followed')) {
-        // 未关注
-        return
+      const staffArea = document.querySelector('.staff-area')
+      if (staffArea) {
+        // 合作稿件
+        if (!staffArea.querySelector('.up-details .follow').className.includes('hidden')) {
+          // 未关注
+          return
+        }
+      } else {
+        // 独立稿件
+        if (!document.querySelector('.follow-up').className.includes('followed')) {
+          // 未关注
+          return
+        }
       }
       if (document.querySelector('.action-area .banana').className.includes('active')) {
         // 已投蕉
