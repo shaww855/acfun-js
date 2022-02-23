@@ -156,7 +156,7 @@
 
   const 查询红包记录 = () => {
     // const 失败个数 = 抢红包结果记录.filter(e => e.error_msg && e.error_msg === '抢红包次数超过给定次数').length
-    const sum = 抢红包结果记录.filter(e => e.data && e.data.grabbed).map(e => e.data.amount).reduce((acc, cur) => { acc += cur }, 0)
+    const sum = 抢红包结果记录.filter(e => e.data && e.data.grabbed).map(e => e.data.amount).reduce((acc, cur) => acc += cur, 0)
     console.log(`共${检查红包记录.length}个，${sum}ac币`, 抢红包结果记录);
   }
 
