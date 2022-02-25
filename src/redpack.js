@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         自动抢红包
 // @namespace    http://tampermonkey.net/
-// @version      0.1.0
+// @version      0.1.1
 // @description  自动抢红包
 // @author       泥壕
 // @match        https://live.acfun.cn/live/*
@@ -112,7 +112,8 @@
         const 能否抢红包 = 请求对象.responseURL.includes('/web/redpack/getToken?subBiz=mainApp&kpn=ACFUN_APP&kpf=PC_WEB&')
         if (能否抢红包) {
           待抢红包个数++
-          console.log('能否抢红包', res.data);
+          console.log('能否抢红包？', res.data.canRequest);
+          console.log('服务器要求等待', res.data.delayTimeMs, 'ms');
           检查红包记录.push(res)
           抢红包()
         }
