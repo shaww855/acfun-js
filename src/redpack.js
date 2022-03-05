@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         自动抢红包
 // @namespace    http://tampermonkey.net/
-// @version      0.1.1
+// @version      0.1.2
 // @description  自动抢红包
 // @author       泥壕
 // @match        https://live.acfun.cn/live/*
@@ -111,6 +111,7 @@
         const res = JSON.parse(请求对象.responseText)
         const 能否抢红包 = 请求对象.responseURL.includes('/web/redpack/getToken?subBiz=mainApp&kpn=ACFUN_APP&kpf=PC_WEB&')
         if (能否抢红包) {
+          发送红包通知()
           待抢红包个数++
           console.log('能否抢红包？', res.data.canRequest);
           console.log('服务器要求等待', res.data.delayTimeMs, 'ms');
@@ -174,6 +175,31 @@
   const 检查直播状态计时器 = setInterval(() => {
     检查直播状态()
   }, 1000 * 60)
+
+  function 发送红包通知 () {
+    const barkKey = '填入你的key'
+    const message = `${document.querySelector('.gift-redpack-title').textContent}，共${document.querySelector('.gift-redpack-account').textContent}`
+    const headUrl = document.querySelector('.live-author-avatar-bzt').src
+    let path = encodeURI(`/${barkKey}/AcFun红包通知/${message.replace('/', '')}?url=${url}&group=acfun&icon=${headUrl}`)
+
+    const options = {
+      hostname: 'api.day.app',
+      port: 443,
+      path,
+      method: 'GET'
+    }
+    const req = https.request(options, res => {
+      if (res.statusCode === 200) {
+        console.log('红包Bark通知发送成功');
+      }
+    })
+
+    req.on('error', error => {
+      console.log('红包Bark通知发送失败');
+      console.log(error)
+    })
+    req.end()
+  }
 
   let 点赞次数 = 0
   let 点赞定时器 = 0
