@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         自动抢红包
 // @namespace    http://tampermonkey.net/
-// @version      0.1.2
+// @version      0.1.3
 // @description  自动抢红包
 // @author       泥壕
 // @match        https://live.acfun.cn/live/*
@@ -179,6 +179,7 @@
   function 发送红包通知 () {
     const barkKey = '填入你的key'
     const message = `${document.querySelector('.gift-redpack-title').textContent}，共${document.querySelector('.gift-redpack-account').textContent}`
+    const url = location.href
     const headUrl = document.querySelector('.live-author-avatar-bzt').src
     let path = encodeURI(`/${barkKey}/AcFun红包通知/${message.replace('/', '')}?url=${url}&group=acfun&icon=${headUrl}`)
 
