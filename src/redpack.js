@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         自动抢红包
 // @namespace    http://tampermonkey.net/
-// @version      0.1.3
+// @version      0.1.4
 // @description  自动抢红包
 // @author       泥壕
 // @match        https://live.acfun.cn/live/*
@@ -177,29 +177,24 @@
   }, 1000 * 60)
 
   function 发送红包通知 () {
-    const barkKey = '填入你的key'
+    const barkKey = '输入你的Bark密钥'
     const message = `${document.querySelector('.gift-redpack-title').textContent}，共${document.querySelector('.gift-redpack-account').textContent}`
     const url = location.href
-    const headUrl = document.querySelector('.live-author-avatar-bzt').src
+    const headUrl = document.querySelector('.live-author-avatar-img').src
     let path = encodeURI(`/${barkKey}/AcFun红包通知/${message.replace('/', '')}?url=${url}&group=acfun&icon=${headUrl}`)
 
-    const options = {
-      hostname: 'api.day.app',
-      port: 443,
-      path,
-      method: 'GET'
-    }
-    const req = https.request(options, res => {
-      if (res.statusCode === 200) {
+    fetch(
+      `https://api.day.app${path}`,
+      { method: 'get' }
+    ).then(res => {
+      if (res.status === 200) {
         console.log('红包Bark通知发送成功');
       }
-    })
-
-    req.on('error', error => {
+    }).catch(err => {
       console.log('红包Bark通知发送失败');
       console.log(error)
     })
-    req.end()
+
   }
 
   let 点赞次数 = 0
