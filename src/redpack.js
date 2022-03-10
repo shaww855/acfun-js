@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         自动抢红包
 // @namespace    http://tampermonkey.net/
-// @version      0.1.4
+// @version      0.1.5
 // @description  自动抢红包
 // @author       泥壕
 // @match        https://live.acfun.cn/live/*
@@ -181,7 +181,7 @@
     const message = `${document.querySelector('.gift-redpack-title').textContent}，共${document.querySelector('.gift-redpack-account').textContent}`
     const url = location.href
     const headUrl = document.querySelector('.live-author-avatar-img').src
-    let path = encodeURI(`/${barkKey}/AcFun红包通知/${message.replace('/', '')}?url=${url}&group=acfun&icon=${headUrl}`)
+    let path = encodeURI(`/${barkKey}/AcFun红包通知/${message.replace('/', '')}?url=${url}&group=acfun&icon=${headUrl}&sound=alarm`)
 
     fetch(
       `https://api.day.app${path}`,
