@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         自动抢红包
 // @namespace    http://tampermonkey.net/
-// @version      0.1.5
+// @version      0.1.10
 // @description  自动抢红包
 // @author       泥壕
 // @match        https://live.acfun.cn/live/*
@@ -111,7 +111,7 @@
         const res = JSON.parse(请求对象.responseText)
         const 能否抢红包 = 请求对象.responseURL.includes('/web/redpack/getToken?subBiz=mainApp&kpn=ACFUN_APP&kpf=PC_WEB&')
         if (能否抢红包) {
-          发送红包通知()
+          // 发送红包通知()
           待抢红包个数++
           console.log('能否抢红包？', res.data.canRequest);
           console.log('服务器要求等待', res.data.delayTimeMs, 'ms');
@@ -178,7 +178,7 @@
 
   function 发送红包通知 () {
     const barkKey = '输入你的Bark密钥'
-    const message = `${document.querySelector('.gift-redpack-title').textContent}，共${document.querySelector('.gift-redpack-account').textContent}`
+    const message = `主播：${document.querySelector('.up-name').textContent}\n${document.querySelector('.gift-redpack-title').textContent}\n${document.querySelector('.gift-redpack-account').textContent}`
     const url = location.href
     const headUrl = document.querySelector('.live-author-avatar-img').src
     let path = encodeURI(`/${barkKey}/AcFun红包通知/${message.replace('/', '')}?url=${url}&group=acfun&icon=${headUrl}&sound=alarm`)
@@ -197,6 +197,35 @@
 
   }
 
+  function handleDomChange () {
+    // 选择需要观察变动的节点
+    const redpackEntry = document.querySelector('.redpack-entry')
+    const authpack = document.querySelector('.authpack-entry')
+
+    // 观察器的配置（需要观察什么变动）
+    const config = { attributes: true, childList: false, subtree: false };
+
+    // 当观察到变动时执行的回调函数
+    const callback = function (mutationsList, observer) {
+      // Use traditional 'for loops' for IE 11
+      for (let mutation of mutationsList) {
+        if (mutation.type === 'attributes') {
+          console.log('检测到红包DOM改动', mutation.attributeName);
+          if (redpackEntry.style.display === 'block' || authpack.style.display === 'block') {
+            发送红包通知()
+          }
+        }
+      }
+    };
+
+    // 创建一个观察器实例并传入回调函数
+    const observer = new MutationObserver(callback);
+
+    // 以上述配置开始观察目标节点
+    observer.observe(redpackEntry, config);
+    observer.observe(authpack, config);
+  }
+
   let 点赞次数 = 0
   let 点赞定时器 = 0
   ready(() => {
@@ -210,5 +239,16 @@
       点赞提示.innerHTML = `已自动点击<br>${点赞次数}次`
     }, 1000 * 60 * .5)
   })
+
+  window.console.error = function (str, num) {
+    if (str === 'retryTicket已达最大次') {
+      location.reload()
+    }
+  }
+
+  setTimeout(() => {
+    handleDomChange()
+  }, 1000 * 30)
+
 })();
 
