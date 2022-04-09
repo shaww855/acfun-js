@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         自动抢红包
 // @namespace    http://tampermonkey.net/
-// @version      0.1.10
+// @version      0.1.12
 // @description  自动抢红包
 // @author       泥壕
 // @match        https://live.acfun.cn/live/*
@@ -48,6 +48,12 @@
   let 抢红包结果记录 = []
   let 执行抢红包超时的计时器 = null
   let 等待红包倒计时的计时器 = 0
+  let barkLocalKey = 'acfun_redpack_bark'
+  const markLocalKey = 'acfun_redpack_key'
+  const markDate = () => {
+    const date = new Date()
+    return `${date.getMonth() + 1}-${date.getDate()}`
+  }
 
   // {"result":1,"data":{"grabbed":false,"amount":0},"host":"public-sc-kcs-node1780.idcyz.hb1.kwaidc.com"}
   // {"result": 1,"data": {"grabbed": true,"amount": 1},"host": "public-af-rs-kce-node372.idczw.hb1.kwaidc.com"}
@@ -102,6 +108,19 @@
     console.log('点击右上角抢红包按钮');
   }
 
+  const 暂停今日红包相关操作 = () => {
+    localStorage.setItem(markLocalKey, markDate())
+  }
+
+  const 今日可以继续抢红包 = () => {
+    const cache = localStorage.getItem(markLocalKey)
+    if (cache === markDate()) {
+      return false
+    } else {
+      return true
+    }
+  }
+
   const 监听异步请求 = e => {
     const 请求对象 = e.detail
     const 请求完成 = 请求对象.readyState === 4
@@ -121,6 +140,10 @@
         const 抢红包结果 = 请求对象.responseURL.includes('/web/redpack/grab?subBiz=mainApp&kpn=ACFUN_APP&kpf=PC_WEB&')
         if (抢红包结果) {
           console.log('抢红包结果', res);
+          if (res.result === 380067) {
+            console.log(res.error_msg);
+            暂停今日红包相关操作()
+          }
 
           待抢红包个数--
           clearInterval(执行抢红包超时的计时器)
@@ -177,7 +200,19 @@
   }, 1000 * 60)
 
   function 发送红包通知 () {
-    const barkKey = '输入你的Bark密钥'
+    let barkKey = localStorage.getItem(barkLocalKey)
+    if (barkKey === null) {
+      const input = prompt('输入你的Bark密钥')
+      if (input === '') {
+        alert('密钥不能为空')
+        发送红包通知()
+      } else if (input === null) {
+        return
+      } else {
+        localStorage.setItem(barkLocalKey, input)
+        barkKey = input
+      }
+    }
     const message = `主播：${document.querySelector('.up-name').textContent}\n${document.querySelector('.gift-redpack-title').textContent}\n${document.querySelector('.gift-redpack-account').textContent}`
     const url = location.href
     const headUrl = document.querySelector('.live-author-avatar-img').src
@@ -210,8 +245,11 @@
       // Use traditional 'for loops' for IE 11
       for (let mutation of mutationsList) {
         if (mutation.type === 'attributes') {
-          console.log('检测到红包DOM改动', mutation.attributeName);
-          if (redpackEntry.style.display === 'block' || authpack.style.display === 'block') {
+          console.log('检测到红包DOM改动', mutation.attributeName, '今日可以继续抢红包', 今日可以继续抢红包());
+          if (redpackEntry.style.display === 'block' && 今日可以继续抢红包()) {
+            发送红包通知()
+          }
+          if (authpack.style.display === 'block') {
             发送红包通知()
           }
         }
