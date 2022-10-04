@@ -9,5 +9,5 @@
   直播间赠送指定的礼物
 - medalName.js  
   acfun牌子名称长度限制
-- emoticons.js
+- emoticons.js  
   将acfun直播颜文字替换成匿名版颜表情
