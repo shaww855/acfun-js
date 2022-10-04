@@ -5,8 +5,9 @@
 // @description  虽然不再上岛了，但还是习惯用匿名版颜表情
 // @author       泥壕
 // @match        https://live.acfun.cn/live/*
-// @icon         //cdn.aixifan.com/ico/favicon.ico
+// @icon         https://cdn.aixifan.com/ico/favicon.ico
 // @grant        none
+// @license      MIT
 // ==/UserScript==
 
 (function () {
