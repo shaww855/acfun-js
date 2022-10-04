@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         将acfun直播颜文字替换成匿名版颜表情
 // @namespace    http://tampermonkey.net/
-// @version      0.1.0
+// @version      0.1.1
 // @description  虽然不再上岛了，但还是习惯用匿名版颜表情
 // @author       泥壕
 // @match        https://live.acfun.cn/live/*
