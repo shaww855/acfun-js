@@ -1,5 +1,5 @@
 # acfun-js
-自写油猴脚本手机，用于提升acfun用户体验~
+自己写的一些油猴脚本
 
 - bigDanmaku.js  
   超大弹幕缩小  
@@ -9,3 +9,5 @@
   直播间赠送指定的礼物
 - medalName.js  
   acfun牌子名称长度限制
+- emoticons.js
+  将acfun直播颜文字替换成匿名版颜表情
