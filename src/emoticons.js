@@ -6,6 +6,7 @@
 // @author       泥壕
 // @match        https://live.acfun.cn/live/*
 // @icon         //cdn.aixifan.com/ico/favicon.ico
+// @license      GPL-3.0 license
 // @grant        none
 // ==/UserScript==
 
