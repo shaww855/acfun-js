@@ -1,7 +1,7 @@
 // ==UserScript==
-// @name         将acfun直播颜文字替换成更丰富的颜表情
+// @name         acfun直播颜文字
 // @namespace    http://tampermonkey.net/
-// @version      0.1.2
+// @version      0.1.3
 // @description  其实就是以前经常上的某个论坛里的自带表情
 // @author       泥壕
 // @match        https://live.acfun.cn/live/*
