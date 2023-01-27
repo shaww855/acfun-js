@@ -11,3 +11,5 @@
   acfun牌子名称长度限制
 - emoticons.js  
   将acfun直播颜文字替换成匿名版颜表情
+- fetchGetCommit.js  
+  下载所有评论，手动导入到Excel进行各种操作。
