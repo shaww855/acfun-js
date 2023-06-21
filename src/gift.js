@@ -5,6 +5,8 @@
  * 2022年4月9日晚测试发现没有跨域了
  */
 
+// https://api.kuaishouzt.com/rest/zt/live/web/gift/list?subBiz=mainApp&kpn=ACFUN_APP&kpf=PC_WEB&userId=&did=&acfun.midground.api_st=
+
 // uid
 const userId = ''
 // 不知道
