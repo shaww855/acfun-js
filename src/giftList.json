@@ -1,262 +1,2155 @@
-[
+'[
   {
-    "id": 1,
-    "name": "香蕉",
-    "price": 1
+    "giftId": 1,
+    "giftName": "香蕉",
+    "arLiveName": "",
+    "payWalletType": 2,
+    "giftPrice": 1,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316101317UbXssBoH.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316101317UbXssBoH.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812141711JRxMyUWH.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812141711JRxMyUWH.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316101519KncIIcdd.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316101519KncIIcdd.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      5
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 0,
+    "vupArId": 0,
+    "description": "达成蕉易，投蕉鼓励！",
+    "redpackPrice": 0,
+    "cornerMarkerText": ""
   },
   {
-    "id": 3,
-    "name": "已下架",
-    "price": null
+    "giftId": 17,
+    "giftName": "快乐水",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 1,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200326112424sejuRxJc.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200326112424sejuRxJc.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812140941rMziAHwK.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812140941rMziAHwK.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200319210318GwMNEDGy.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200319210318GwMNEDGy.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 0,
+    "vupArId": 1,
+    "description": "快乐肥宅喝肥宅快乐水，快乐无比",
+    "redpackPrice": 0,
+    "cornerMarkerText": ""
   },
   {
-    "id": 4,
-    "name": "牛啤",
-    "price": 10
+    "giftId": 35,
+    "giftName": "氧气瓶",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 6,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200710193755EsBTkrZa.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200710193755EsBTkrZa.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812140602bpagADgP.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812140602bpagADgP.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200710193802wglqFlFq.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200710193802wglqFlFq.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 0,
+    "vupArId": 0,
+    "description": "不要急，氧气瓶来了～",
+    "redpackPrice": 0,
+    "cornerMarkerText": ""
   },
   {
-    "id": 5,
-    "name": "手柄",
-    "price": 20
+    "giftId": 143,
+    "giftName": "粽子",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 66,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20230619131938zRaDhDxp.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20230619131938zRaDhDxp.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20230619132013YfuxWjND.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20230619132013YfuxWjND.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20230619132018obOPnQDN.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20230619132018obOPnQDN.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 0,
+    "vupArId": 1,
+    "description": "你猜是什么馅的",
+    "redpackPrice": 0,
+    "cornerMarkerText": "节日"
   },
   {
-    "id": 6,
-    "name": "魔法棒",
-    "price": 100
+    "giftId": 142,
+    "giftName": "电风扇",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 99,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20230529151649YsYusoyO.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20230529151649YsYusoyO.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20230529151656tvhmOgNB.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20230529151656tvhmOgNB.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20230529151659TAQxXPCc.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20230529151659TAQxXPCc.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 0,
+    "vupArId": 0,
+    "description": "退役无常猴工具，据说现在都用空调",
+    "redpackPrice": 0,
+    "cornerMarkerText": "限定"
   },
   {
-    "id": 7,
-    "name": "好人卡",
-    "price": 166
+    "giftId": 92,
+    "giftName": "弹幕波",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 300,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210819200058YWTnEMYR.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210819200058YWTnEMYR.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210819200100xZhjEJPS.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210819200100xZhjEJPS.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210819200104uYkTAQzs.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210819200104uYkTAQzs.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 99458,
+    "vupArId": 1,
+    "description": "弹幕太薄？速吃我一波！",
+    "redpackPrice": 0,
+    "cornerMarkerText": ""
   },
   {
-    "id": 8,
-    "name": "星蕉雨",
-    "price": 666
+    "giftId": 102,
+    "giftName": "天女宝莲灯",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 520,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210917190801kbIgbhTa.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210917190801kbIgbhTa.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210917190805eugQRehG.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210917190805eugQRehG.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210917190807MUAufPAZ.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210917190807MUAufPAZ.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 113978,
+    "vupArId": 1,
+    "description": "满天飞的宝莲灯",
+    "redpackPrice": 52,
+    "cornerMarkerText": ""
   },
   {
-    "id": 9,
-    "name": "告白",
-    "price": 6
+    "giftId": 16,
+    "giftName": "猴岛",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 2888,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316111119oxpFWYGQ.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316111119oxpFWYGQ.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812141000WkBybKGr.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812141000WkBybKGr.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316111145bJSDGWHB.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316111145bJSDGWHB.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 264,
+    "vupArId": 1,
+    "description": "我要让所有人知道，这座猴岛，被我承包了！",
+    "redpackPrice": 288,
+    "cornerMarkerText": ""
   },
   {
-    "id": 10,
-    "name": "666",
-    "price": 6
+    "giftId": 38,
+    "giftName": "草",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 1,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200817184703myASBVpk.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200817184703myASBVpk.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200817184708MSPwNQVP.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200817184708MSPwNQVP.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200817184712YnpFbJxZ.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200817184712YnpFbJxZ.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 0,
+    "vupArId": 1,
+    "description": "大草原不可避",
+    "redpackPrice": 0,
+    "cornerMarkerText": ""
   },
   {
-    "id": 11,
-    "name": "菜鸡",
-    "price": 10
+    "giftId": 9,
+    "giftName": "告白",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 6,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316105939OpWLKDxw.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316105939OpWLKDxw.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812141244woTtbxqB.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812141244woTtbxqB.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316105954zbzoXHKE.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316105954zbzoXHKE.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 0,
+    "vupArId": 1,
+    "description": "用最高的分贝，为你打CALL！",
+    "redpackPrice": 0,
+    "cornerMarkerText": ""
   },
   {
-    "id": 12,
-    "name": "打Call",
-    "price": 10
+    "giftId": 61,
+    "giftName": "好活",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 10,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210208161246nVsyvIKz.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210208161246nVsyvIKz.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210208161251CwzuVKut.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210208161251CwzuVKut.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210208161254vsNhVnpH.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210208161254vsNhVnpH.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 0,
+    "vupArId": 1,
+    "description": "整活，整好活",
+    "redpackPrice": 0,
+    "cornerMarkerText": ""
   },
   {
-    "id": 13,
-    "name": "立FLAG",
-    "price": 20
+    "giftId": 77,
+    "giftName": "加班",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 10,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210429132558jmBSZLuG.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210429132558jmBSZLuG.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210429132601BNCsiXud.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210429132601BNCsiXud.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210429132603wmVYDSDX.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210429132603wmVYDSDX.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": true,
+    "magicFaceId": 0,
+    "vupArId": 1,
+    "description": "希望主播不要下线继续直播播",
+    "redpackPrice": 0,
+    "cornerMarkerText": "涂鸦"
   },
   {
-    "id": 14,
-    "name": "已下架",
-    "price": null
+    "giftId": 78,
+    "giftName": "抱抱",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 52,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210429132647TatsgBYs.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210429132647TatsgBYs.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210429132649xluXsQYp.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210429132649xluXsQYp.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210429132652tpiqBLrU.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210429132652tpiqBLrU.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 0,
+    "vupArId": 1,
+    "description": "给主播一个爱的抱抱",
+    "redpackPrice": 0,
+    "cornerMarkerText": ""
   },
   {
-    "id": 15,
-    "name": "AC机娘",
-    "price": 999
+    "giftId": 62,
+    "giftName": "窜天猴",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 266,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210208170330MIvTuZDy.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210208170330MIvTuZDy.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210208170335Giqikuat.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210208170335Giqikuat.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210208170339RqaGwyZc.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210208170339RqaGwyZc.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 23256,
+    "vupArId": 1,
+    "description": "新年限定窜天猴 boom",
+    "redpackPrice": 0,
+    "cornerMarkerText": ""
   },
   {
-    "id": 16,
-    "name": "猴岛",
-    "price": 2888
+    "giftId": 15,
+    "giftName": "AC机娘",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 999,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200326112216brTmMKrd.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200326112216brTmMKrd.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812141023ZBMYRdWP.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812141023ZBMYRdWP.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316111048ZUanNhzZ.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316111048ZUanNhzZ.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 262,
+    "vupArId": 1,
+    "description": "AC机娘合体，前方高能！！",
+    "redpackPrice": 99,
+    "cornerMarkerText": ""
   },
   {
-    "id": 17,
-    "name": "快乐水",
-    "price": 1
+    "giftId": 94,
+    "giftName": "满堂彩",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 1666,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210819200848ZCbmoALD.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210819200848ZCbmoALD.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210819200851ABlPPFUx.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210819200851ABlPPFUx.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210819200854wOzlvObG.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210819200854wOzlvObG.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 99462,
+    "vupArId": 1,
+    "description": "用烟花礼炮为主播喝彩~",
+    "redpackPrice": 166,
+    "cornerMarkerText": ""
   },
   {
-    "id": 18,
-    "name": "已下架",
-    "price": null
+    "giftId": 89,
+    "giftName": "拿捏了",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 1,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210806144630psUjMuGB.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210806144630psUjMuGB.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210806144625VqULsOcq.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210806144625VqULsOcq.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210806144634TrGnnzVp.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210806144634TrGnnzVp.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 0,
+    "vupArId": 1,
+    "description": "拿捏了，拿捏了",
+    "redpackPrice": 0,
+    "cornerMarkerText": ""
   },
   {
-    "id": 19,
-    "name": "已下架",
-    "price": null
+    "giftId": 12,
+    "giftName": "打Call",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 10,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200326112443kfWQhpaG.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200326112443kfWQhpaG.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812141131ukNHkGeU.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812141131ukNHkGeU.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316110407BdolKFLb.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316110407BdolKFLb.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 0,
+    "vupArId": 1,
+    "description": "为你转身为你爆灯，为你打CALL日夜不分",
+    "redpackPrice": 0,
+    "cornerMarkerText": ""
   },
   {
-    "id": 20,
-    "name": "已下架",
-    "price": null
+    "giftId": 46,
+    "giftName": "好听",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 10,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200916134821IpQdbDlH.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200916134821IpQdbDlH.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200916134825ZChMMLSj.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200916134825ZChMMLSj.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200916134832MUgSPdcx.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200916134832MUgSPdcx.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 0,
+    "vupArId": 1,
+    "description": "说的唱的都好听！",
+    "redpackPrice": 0,
+    "cornerMarkerText": ""
   },
   {
-    "id": 21,
-    "name": "生日快乐",
-    "price": 616
+    "giftId": 33,
+    "giftName": "情书",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 52,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200703163320LwziGbIr.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200703163320LwziGbIr.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812140634XhNFtNAm.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812140634XhNFtNAm.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200703163327bwbkulDv.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200703163327bwbkulDv.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 0,
+    "vupArId": 1,
+    "description": "是亲手书写的",
+    "redpackPrice": 0,
+    "cornerMarkerText": ""
   },
   {
-    "id": 22,
-    "name": "已下架",
-    "price": null
+    "giftId": 91,
+    "giftName": "亲亲",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 99,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210810182255jNsMtqnf.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210810182255jNsMtqnf.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210810182259nVWfJdVQ.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210810182259nVWfJdVQ.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210810182303UeRoeMTm.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210810182303UeRoeMTm.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 93367,
+    "vupArId": 1,
+    "description": "mua～",
+    "redpackPrice": 0,
+    "cornerMarkerText": ""
   },
   {
-    "id": 23,
-    "name": "已下架",
-    "price": null
+    "giftId": 29,
+    "giftName": "大触",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 300,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200703161358nmYvhxTt.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200703161358nmYvhxTt.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812140739YwNlasiG.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812140739YwNlasiG.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200703161406jKGzdKyO.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200703161406jKGzdKyO.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 0,
+    "vupArId": 1,
+    "description": "妈妈问我为什么跪着看直播",
+    "redpackPrice": 0,
+    "cornerMarkerText": ""
   },
   {
-    "id": 24,
-    "name": "已下架",
-    "price": null
+    "giftId": 21,
+    "giftName": "生日快乐",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 616,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200601114551ewzapBkS.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200601114551ewzapBkS.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812140916FGCHZZde.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812140916FGCHZZde.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200601114604edYGEpAp.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200601114604edYGEpAp.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 603,
+    "vupArId": 1,
+    "description": "爱在A站，感恩有你！",
+    "redpackPrice": 0,
+    "cornerMarkerText": ""
   },
   {
-    "id": 25,
-    "name": "已下架",
-    "price": null
+    "giftId": 66,
+    "giftName": "红包雨",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 666,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210208171319RfNgyfOp.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210208171319RfNgyfOp.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210208171323mJeTSJhF.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210208171323mJeTSJhF.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210208171326whDIbxCc.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210208171326whDIbxCc.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 23278,
+    "vupArId": 1,
+    "description": "下红包雨咯",
+    "redpackPrice": 0,
+    "cornerMarkerText": ""
   },
   {
-    "id": 26,
-    "name": "已下架",
-    "price": null
+    "giftId": 76,
+    "giftName": "晚安",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 6,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210429132419oDvOQyNj.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210429132419oDvOQyNj.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210429132423nnqIRfDo.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210429132423nnqIRfDo.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210429132425NHwTmwPo.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210429132425NHwTmwPo.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 0,
+    "vupArId": 1,
+    "description": "离开直播间前和主播说一声晚安",
+    "redpackPrice": 0,
+    "cornerMarkerText": ""
   },
   {
-    "id": 27,
-    "name": "已下架",
-    "price": null
+    "giftId": 80,
+    "giftName": "？？？",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 1,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210429132825lJryQLki.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210429132825lJryQLki.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210429132828PpgYlvcC.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210429132828PpgYlvcC.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210429132831xjezWelR.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210429132831xjezWelR.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 0,
+    "vupArId": 1,
+    "description": "对主播的迷惑操作感到困惑",
+    "redpackPrice": 0,
+    "cornerMarkerText": ""
   },
   {
-    "id": 28,
-    "name": "已下架",
-    "price": null
+    "giftId": 11,
+    "giftName": "菜鸡",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 10,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316110220pAFeyfiH.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316110220pAFeyfiH.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812141156YJPngOeT.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812141156YJPngOeT.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316110238KpxgrLFh.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316110238KpxgrLFh.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 0,
+    "vupArId": 1,
+    "description": "感谢老铁的菜鸡操作，太下饭了噢！",
+    "redpackPrice": 0,
+    "cornerMarkerText": ""
   },
   {
-    "id": 29,
-    "name": "大触",
-    "price": 300
+    "giftId": 72,
+    "giftName": "降噪栓",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 10,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210317171143MdeAMebR.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210317171143MdeAMebR.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210317171147qFgwhOsp.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210317171147qFgwhOsp.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210317171150iPqiFFfA.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210317171150iPqiFFfA.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 0,
+    "vupArId": 1,
+    "description": "请在奶老师大叫的时候使用",
+    "redpackPrice": 0,
+    "cornerMarkerText": ""
   },
   {
-    "id": 30,
-    "name": "鸽鸽",
-    "price": 10
+    "giftId": 13,
+    "giftName": "立FLAG",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 20,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316110524Zfcbcloc.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316110524Zfcbcloc.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812141111jvMVmbac.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812141111jvMVmbac.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316110553QXFLMSNL.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316110553QXFLMSNL.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 0,
+    "vupArId": 1,
+    "description": "不说别的，今天我必当榜一！",
+    "redpackPrice": 0,
+    "cornerMarkerText": ""
   },
   {
-    "id": 31,
-    "name": "金坷垃",
-    "price": 1
+    "giftId": 47,
+    "giftName": "奶瓶",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 20,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200916135150aQoBueHr.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200916135150aQoBueHr.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200916135153xYYulasI.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200916135153xYYulasI.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200916135156twIThcqv.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200916135156twIThcqv.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 0,
+    "vupArId": 1,
+    "description": "AC钙奶～",
+    "redpackPrice": 0,
+    "cornerMarkerText": ""
   },
   {
-    "id": 32,
-    "name": "变身腰带",
-    "price": 100
+    "giftId": 7,
+    "giftName": "好人卡",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 166,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200326112138yIlzaxEN.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200326112138yIlzaxEN.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20220427195453KVHHFxri.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20220427195453KVHHFxri.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316105105ZBaWRIAf.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316105105ZBaWRIAf.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 0,
+    "vupArId": 1,
+    "description": "对不起，你是个好人。",
+    "redpackPrice": 0,
+    "cornerMarkerText": ""
   },
   {
-    "id": 33,
-    "name": "情书",
-    "price": 52
+    "giftId": 43,
+    "giftName": "对瓶吹",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 300,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200817185602SsddFyOx.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200817185602SsddFyOx.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200817185606KFIDjUSd.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200817185606KFIDjUSd.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200817185611OtgdrGzO.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200817185611OtgdrGzO.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 0,
+    "vupArId": 1,
+    "description": "AcFun，对瓶吹！",
+    "redpackPrice": 0,
+    "cornerMarkerText": ""
   },
   {
-    "id": 34,
-    "name": "狗粮",
-    "price": 1
+    "giftId": 2,
+    "giftName": "吃瓜",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 1,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200326112056bpqDFUpE.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200326112056bpqDFUpE.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812141654NvIlrtUX.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812141654NvIlrtUX.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316101616sGxRzHkg.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316101616sGxRzHkg.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 0,
+    "vupArId": 0,
+    "description": "哎，我跟你讲，这瓜超甜的！",
+    "redpackPrice": 0,
+    "cornerMarkerText": "涂鸦"
   },
   {
-    "id": 35,
-    "name": "氧气瓶",
-    "price": 6
+    "giftId": 4,
+    "giftName": "牛啤",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 10,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316102403nhraQFnl.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316102403nhraQFnl.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812141637WdowKjrh.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812141637WdowKjrh.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316102426QUHuyfSH.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316102426QUHuyfSH.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 0,
+    "vupArId": 0,
+    "description": "这波操作，那是真的牛啤！",
+    "redpackPrice": 0,
+    "cornerMarkerText": "涂鸦"
   },
   {
-    "id": 38,
-    "name": "草",
-    "price": 1
+    "giftId": 5,
+    "giftName": "手柄",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 20,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316103119XIGiejhE.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316103119XIGiejhE.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812141606GjoRCqoI.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812141606GjoRCqoI.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316103138SwlwIgJq.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316103138SwlwIgJq.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 0,
+    "vupArId": 0,
+    "description": "手柄奉上，专业操作当然要配专业设备！",
+    "redpackPrice": 0,
+    "cornerMarkerText": ""
   },
   {
-    "id": 43,
-    "name": "对瓶吹",
-    "price": 300
+    "giftId": 6,
+    "giftName": "魔法棒",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 100,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316104916graCPBLR.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316104916graCPBLR.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812141537pKdwEybc.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812141537pKdwEybc.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316104937ZwUlTgwC.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316104937ZwUlTgwC.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 0,
+    "vupArId": 0,
+    "description": "签订契约，成为马猴烧酒吧！",
+    "redpackPrice": 0,
+    "cornerMarkerText": ""
   },
   {
-    "id": 46,
-    "name": "好听",
-    "price": 10
+    "giftId": 31,
+    "giftName": "金坷垃",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 1,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200703161625OXIaQsCi.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200703161625OXIaQsCi.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812140708XjheyfCK.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812140708XjheyfCK.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200703161632gEQtuyvs.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200703161632gEQtuyvs.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 0,
+    "vupArId": 0,
+    "description": "直憋掺了金坷垃，一个能顶两个送（大雾",
+    "redpackPrice": 0,
+    "cornerMarkerText": ""
   },
   {
-    "id": 47,
-    "name": "奶瓶",
-    "price": 20
+    "giftId": 8,
+    "giftName": "星蕉雨",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 666,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316105208mYOsWtSS.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316105208mYOsWtSS.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812141306VNYTbdgA.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812141306VNYTbdgA.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316105237weLpkVGJ.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316105237weLpkVGJ.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 261,
+    "vupArId": 0,
+    "description": "一起来看星蕉雨！",
+    "redpackPrice": 0,
+    "cornerMarkerText": ""
   },
   {
-    "id": 61,
-    "name": "好活",
-    "price": 10
+    "giftId": 10,
+    "giftName": "666",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 6,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316110017MMEUENOa.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316110017MMEUENOa.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812141213edIcdAuj.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812141213edIcdAuj.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316110031aBpELWXs.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200316110031aBpELWXs.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 0,
+    "vupArId": 0,
+    "description": "这操作，没谁了，66666！",
+    "redpackPrice": 0,
+    "cornerMarkerText": ""
   },
   {
-    "id": 62,
-    "name": "窜天猴",
-    "price": 266
+    "giftId": 79,
+    "giftName": "危",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 10,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210429132730vJRuixmR.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210429132730vJRuixmR.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210429132733vdvhyKAl.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210429132733vdvhyKAl.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210429132736PLAIpVfR.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210429132736PLAIpVfR.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 47424,
+    "vupArId": 0,
+    "description": "对主播的危险操作感到惊叹",
+    "redpackPrice": 0,
+    "cornerMarkerText": ""
   },
   {
-    "id": 64,
-    "name": "真牛",
-    "price": 66
+    "giftId": 30,
+    "giftName": "鸽鸽",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 10,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200703161528RcEqeDNI.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200703161528RcEqeDNI.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812140724wHCkGdVY.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812140724wHCkGdVY.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200703161535GUTHRljc.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200703161535GUTHRljc.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 0,
+    "vupArId": 1,
+    "description": "咕咕咕～咕咕咕～",
+    "redpackPrice": 0,
+    "cornerMarkerText": ""
   },
   {
-    "id": 66,
-    "name": "红包雨",
-    "price": 666
+    "giftId": 32,
+    "giftName": "变身腰带",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 100,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200703162229KXqUsqGB.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200703162229KXqUsqGB.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812140652lwWuPQcU.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812140652lwWuPQcU.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200703162235MayefTlJ.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200703162235MayefTlJ.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 0,
+    "vupArId": 0,
+    "description": "有一定概率会变成美少女",
+    "redpackPrice": 0,
+    "cornerMarkerText": ""
   },
   {
-    "id": 72,
-    "name": "降噪栓",
-    "price": 10
+    "giftId": 39,
+    "giftName": "药丸",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 6,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200817184805GZpIzMxF.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200817184805GZpIzMxF.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200817184810cTPiAKBY.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200817184810cTPiAKBY.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200817184832RNYPmtUq.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200817184832RNYPmtUq.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 0,
+    "vupArId": 1,
+    "description": "〇〇〇吃枣药丸",
+    "redpackPrice": 0,
+    "cornerMarkerText": ""
   },
   {
-    "id": 76,
-    "name": "晚安",
-    "price": 6
+    "giftId": 42,
+    "giftName": "冰淇淋",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 166,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200817185443CuiIgjav.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200817185443CuiIgjav.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200817185448UUabrkiP.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200817185448UUabrkiP.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200817185451YcFXfaDo.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200817185451YcFXfaDo.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 0,
+    "vupArId": 0,
+    "description": "一年四季都可以吃冰淇淋的噢",
+    "redpackPrice": 0,
+    "cornerMarkerText": ""
   },
   {
-    "id": 77,
-    "name": "加班",
-    "price": 10
+    "giftId": 41,
+    "giftName": "作业本",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 100,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200817185256QRJIUEGV.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200817185256QRJIUEGV.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200817185300vhOEVViG.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200817185300vhOEVViG.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200817185303iSWNZjEh.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200817185303iSWNZjEh.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 0,
+    "vupArId": 0,
+    "description": "作业本里面当然是作业啦！",
+    "redpackPrice": 0,
+    "cornerMarkerText": ""
   },
   {
-    "id": 80,
-    "name": "？？？",
-    "price": 1
+    "giftId": 64,
+    "giftName": "真牛",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 66,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210208170627QKqNdObM.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210208170627QKqNdObM.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210208170716rOIUnqHQ.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210208170716rOIUnqHQ.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210208170720Vavovubz.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210208170720Vavovubz.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 0,
+    "vupArId": 1,
+    "description": "你就说真不真吧",
+    "redpackPrice": 0,
+    "cornerMarkerText": ""
   },
   {
-    "id": 89,
-    "name": "拿捏了",
-    "price": 1
+    "giftId": 70,
+    "giftName": "魔法加护",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 5,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210209153043tdVtDEbs.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210209153043tdVtDEbs.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210209153108EypeUQZy.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210209153108EypeUQZy.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210209153111VztVuMCZ.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20210209153111VztVuMCZ.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 0,
+    "vupArId": 0,
+    "description": "上护盾",
+    "redpackPrice": 0,
+    "cornerMarkerText": ""
   },
   {
-    "id": 91,
-    "name": "亲亲",
-    "price": 99
-  },
-  {
-    "id": 92,
-    "name": "弹幕波",
-    "price": 300
-  },
-  {
-    "id": 94,
-    "name": "满堂彩",
-    "price": 1666
-  },
-  {
-    "id": 102,
-    "name": "天女宝莲灯",
-    "price": 520
-  },
-  {
-    "id": 133,
-    "name": "春fafa",
-    "price": 99
+    "giftId": 34,
+    "giftName": "狗粮",
+    "arLiveName": "",
+    "payWalletType": 1,
+    "giftPrice": 1,
+    "webpPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200703163719ViuLsnqR.webp",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200703163719ViuLsnqR.webp",
+        "freeTraffic": false
+      }
+    ],
+    "pngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812140616hsVkGPJr.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200812140616hsVkGPJr.png",
+        "freeTraffic": false
+      }
+    ],
+    "smallPngPicList": [
+      {
+        "cdn": "blobStore",
+        "url": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200703163726DTyYjZcF.png",
+        "urlPattern": "https://static.yximgs.com/bs2/giftCenter/giftCenter-20200703163726DTyYjZcF.png",
+        "freeTraffic": false
+      }
+    ],
+    "allowBatchSendSizeList": [
+      1,
+      6,
+      10,
+      66,
+      233
+    ],
+    "canCombo": true,
+    "canDraw": false,
+    "magicFaceId": 0,
+    "vupArId": 1,
+    "description": "撒吧，撒吧～ 汪汪汪～",
+    "redpackPrice": 0,
+    "cornerMarkerText": ""
   }
-]
+]'
